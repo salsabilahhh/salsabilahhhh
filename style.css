@@ -1,0 +1,138 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color:#383d2f;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+   width: 100%; 
+   margin: auto;
+   display: flex;
+   line-height: 80px;
+   position: sticky;
+   position:-webkit-sticky;
+   top: 0;
+   background: #F3E9DD;
+   z-index: 1; 
+   border-bottom: 1px solid black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none ;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.kolom{
+    margin-top: :50px;
+    margin-bottom:50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color:#464d3c
+}
+
+h2{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#272925;
+    width: 100%;
+    line height 50px;
+    padding: 9px 9px 9px 9px;
+}
+
+a.tbl-biru{
+    background: rgb(184, 179, 170);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: rgb(212, 212, 240);
+    text-decoration: none;
+}
+
+.tbl-pink{
+    background: rgb(202, 176, 127);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:rgb(22, 18, 19);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: rgb(129, 129, 201);
+    text-decoration: none;
+}
+
+p{
+    margin: 9px 9px 9px 9px;
+    padding: 10px 0px 10px 0px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 0px;
+}
